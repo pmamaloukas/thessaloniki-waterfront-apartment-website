@@ -1,0 +1,99 @@
+body main{
+    background: url(photos/kitchenTable.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 161px);
+    padding: 5%;
+}
+
+
+#title {
+    text-align: center;
+    font-family: serif;
+    font-style: oblique;
+    font-stretch: expanded;
+    font-size: 45px;
+    margin: 15px;
+    color: rgb(235,229, 189);
+}
+
+.menu {
+    
+    background-color: rgb(120, 148, 120);
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+}
+.menu button {
+    cursor:pointer;
+    float: left;
+    margin-top: 20px;
+    background-color: rgb(235,229, 189);
+    border-color: rgb(235,229, 189);
+    height: 50px;
+    width: 15%;
+    font-family: serif;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+#contact {
+    float: left;
+    margin-left: 9%
+}
+
+#info {
+    float: left;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+#rating {
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+#footer{
+    padding: 0.5%;
+    background-color: rgb(120, 148, 120);
+    color: rgb(235,229, 189);
+    height: 20%
+}
+
+a {
+    color: rgb(109, 94, 77);
+}
+
+.slogan {
+    font-size: 6vh;
+    text-align: center;
+    font-family: serif;
+    font-style: oblique;
+    color: rgb(235,229, 189);
+}
+
+#headSlogan {
+    font-size: 14vh;
+
+}
+
+body {
+    background-color: rgb(109, 94, 77);
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-bottom: 5%;
+}
+ #language {
+     color:rgb(235,229, 189);
+     float: right;
+}
+
+#backToHome {
+    cursor:pointer;
+    background-color: rgb(109, 94, 77);
+    border: none;
+    font-size:120%;
+    color: rgb(235,229, 189);
+}
+
